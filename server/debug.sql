@@ -1,0 +1,1 @@
+select distinct `points`.* from `points` inner join `point_items` on `items_id` = `point_items`.`items_id` where `point_items`.`items_id` in (2)
